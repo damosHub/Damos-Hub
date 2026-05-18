@@ -1,10 +1,94 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Damian's Hub</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Damian's Hub</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#0f172a;
+    color:white;
+    text-align:center;
+}
+
+header{
+    padding:80px 20px;
+}
+
+h1{
+    font-size:60px;
+    margin-bottom:10px;
+}
+
+p{
+    font-size:22px;
+    color:#cbd5e1;
+}
+
+.container{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+    padding:40px;
+}
+
+.card{
+    background:#1e293b;
+    padding:30px;
+    width:280px;
+    border-radius:20px;
+    box-shadow:0 0 20px rgba(0,0,0,0.3);
+}
+
+.card h2{
+    margin-top:0;
+}
+
+.button{
+    display:inline-block;
+    margin-top:15px;
+    padding:12px 24px;
+    background:#38bdf8;
+    color:black;
+    text-decoration:none;
+    border-radius:10px;
+    font-weight:bold;
+}
+</style>
 </head>
+
 <body>
-  <h1>Welcome to Damian's Hub</h1>
-  <p>AI apps, scripts, art and more.</p>
+
+<header>
+    <h1>Damian's Hub</h1>
+    <p>AI Apps • Scripts • Digital Art • Tech Projects</p>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h2>AI Tools</h2>
+        <p>Custom AI utilities and experiments.</p>
+        <a class="button" href="#">Explore</a>
+    </div>
+
+    <div class="card">
+        <h2>Scripts</h2>
+        <p>Windows tools, automation and utilities.</p>
+        <a class="button" href="#">View Scripts</a>
+    </div>
+
+    <div class="card">
+        <h2>Digital Art</h2>
+        <p>AI-generated visuals and creative projects.</p>
+        <a class="button" href="#">Gallery</a>
+    </div>
+
+</div>
+
 </body>
 </html>
